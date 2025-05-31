@@ -1,0 +1,87 @@
+<html lang="pl-PL">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./styles/index.css">
+	<link rel="stylesheet" href="./styles/contact.css">
+	<title>Budomax | Kontakt</title>
+</head>
+<body>
+<nav class="nav">
+	<div class="nav__logo-wrapper">
+		<img class="logo" src="./assets/logo-transparent.png" alt="#">
+	</div>
+
+	<ul class="nav__links">
+		<li class="link-wrapper">
+			<a class="link" href="./index.html">
+				Strona główna
+			</a>
+		</li>
+
+		<li class="link-wrapper">
+			<a class="link" href="./services.html">
+				Usługi
+			</a>
+		</li>
+
+		<li class="link-wrapper">
+			<a class="link" href="./contact.html">
+				Kontakt
+			</a>
+		</li>
+
+		<li class="link-wrapper">
+			<a class="link" href="./about.html">
+				O nas
+			</a>
+		</li>
+	</ul>
+</nav>
+
+<header>
+	<h1>Skontaktuj się z nami</h1>
+</header>
+
+<main>
+	<section>
+		<h2>Dane kontaktowe</h2>
+		<address>
+			<strong>Budomax Sp. z o.o.</strong><br>
+			ul. Przykładowa 173694<br>
+			11-130 Orneta<br>
+			Tel: <a href="tel:+48123456789">+48 123 456 789</a><br>
+			E-mail: <a href="mailto:kontakt@budomax.pl">kontakt@budomax.pl</a>
+		</address>
+	</section>
+
+	<section>
+		<h2>Formularz kontaktowy</h2>
+		<form action="mailto:kontakt@budomax.pl" method="POST" enctype="text/plain">
+			<div class="input-wrapper">
+				<label for="name">Imię i nazwisko</label>
+				<input type="text" id="name" name="name" required>
+			</div>
+
+			<div class="input-wrapper">
+				<label for="email">Adres e-mail</label>
+				<input type="email" id="email" name="email" required>
+			</div>
+
+			<div class="input-wrapper">
+				<label for="message">Wiadomość</label>
+				<textarea id="message" name="message" rows="6" required></textarea>
+			</div>
+
+			<button type="submit">Wyślij wiadomość</button>
+		</form>
+	</section>
+</main>
+
+<footer>
+	<p>&copy; 2025 Budomax. Wszelkie prawa zastrzeżone.</p>
+</footer>
+</body>
+</html>
